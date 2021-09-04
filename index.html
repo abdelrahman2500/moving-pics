@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .wrapper{
+            width: 600px;
+            height: 600px;
+            border: 2px solid red;
+            position: relative;
+        }
+        img{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+        }
+        #one{
+            top: 50%;
+            margin-top: -25px;
+        }
+        #two{
+            top: 50%;
+            margin-top: -25px;
+            right: 0;
+        }
+        #three{
+            bottom: 0;
+            left: 50%;
+            margin-left: -25px;
+        }
+        p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="up/1.jpg" alt="" id="one">
+        <img src="up/2.jpg" alt="" id="two">
+        <img src="up/3.jpg" alt="" id="three">
+    </div>
+    <input id="move" type="button" value="go">
+    <input id="reset" type="button" value="reset">
+
+    <p id="para1"></p>
+    <p id="para2"></p>
+
+    <script src="main.js"></script>
+</body>
+</html>
